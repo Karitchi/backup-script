@@ -108,7 +108,7 @@ def print_finish_message(sources, destination, zip_filepath):
         f"The backup of {num_sources} sources has been completed and saved to {destination} (size: {size:.2f} MB).")
 
 
-def zip_sources(sources, destination, name):
+def zipources(sources, destination, name):
     """Compress the source file or files and all their contents into a .zip file and store it in the destination location.
 
     Args:
